@@ -1,21 +1,16 @@
 import React from "react";
-import IDcard from "../Component/IDcard";
-import logo from "../logo.svg";
 
 class Home extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      licnaKarta: {
-        name: "Stefan Todorovic",
-        age: 29,
-        img: logo
-      }
-    };
+    this.state = {};
   }
   render() {
-    let user = this.state.licnaKarta;
-    return <div></div>;
+    return (
+      <div>
+        <h1>Home Komponenta</h1>
+      </div>
+    );
   }
 }
 
