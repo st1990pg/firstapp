@@ -15,11 +15,7 @@ class Home extends React.Component {
   }
   render() {
     let user = this.state.licnaKarta;
-    return (
-      <div>
-        <IDcard user={user} />
-      </div>
-    );
+    return <div></div>;
   }
 }
 
